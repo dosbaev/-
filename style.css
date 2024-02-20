@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 166px;
+}
+.header {
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-line {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-item:hover {
+  color: red;
+}
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 25px;
+  transition: color 0.3s linear;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.card {
+  position: relative;
+  border-right: 1px solid #ffffff;
+  padding-right: 10px;
+  height: 50px;
+}
+.card-img {
+  position: absolute;
+  top: 20px;
+  right: 7px;
+}
+.name:hover {
+  color: red;
+}
+.name {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s linear;
+}
+.block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.phone-text {
+  color: #fff;
+}
+.phone {
+  display: flex;
+  align-items: center;
+}
+.button:hover {
+  background-color: red;
+}
+.button {
+  transition: color 0.2s linear;
+  background: #ff7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 19px;
+  border-radius: 10px;
+}
+.header-down h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  color: #d67e35;
+}
+.header-down h1 {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 92px;
+  letter-spacing: 0em;
+  color: #d67e35;
+}
+.header-down {
+  font-family: "Tinos", serif;
+  margin-top: 225px;
+  margin: 225px 700px 0 0;
+  text-align: center;
+}
+.header-suptitle {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  margin: 12px 55px 0 175px;
+}
+.header-suptitle::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 5;
+  left: 270px;
+  margin: 11px 0 0 0;
+}
+.header-suptitle::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 5;
+  left: 515px;
+  margin: 11px 0 0 0;
+}
+.header-btn button {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  background: #ff7400;
+  color: #fff;
+  padding: 14px 28px;
+  margin: 20px 0 0 190px;
+  transition: background-color 0.3s linear;
+}
+.header-btn button:hover {
+  background-color: red;
+}
+
+.card-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(237, 235, 232);
+}
+.card {
+  width: 3;
+}
+#cards {
+  margin: 20px 0 0 0;
+}
+
+.card2 {
+  margin: -200px 200px 0 0;
+
+}
+
